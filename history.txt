@@ -1,0 +1,26 @@
+  727  sudo apt-get install lamp-server^
+  728  /etc/init.d/apache2 start
+  729  sudo vim /etc/apache2/apache2.conf
+  730  /etc/init.d/apache2 start
+  731  sudo vi /etc/apache2/ports.conf
+  732  /etc/init.d/apache2 start
+  733  chown apache.apache /etc/httpd/logs/error_log
+  734  ~# chown apache.apache /etc/httpd/logs/error_log
+  735  usermod -a -G apache sabot00
+  736  mkdir /var/log/apache2
+  737  chmod 750 /var/log/apache2
+  738  sudo chmod 750 /var/log/apache2
+  739  chown root:adm /var/log/apache2
+  740  /etc/init.d/apache2 start
+  741  sudo /etc/init.d/apache2 start
+  742  sudo /etc/init.d/apache2 stop
+  743  sudo vi /etc/apache2/ports.conf
+  744  sudo /etc/init.d/apache2 start
+  745  vim /var/www/html/info.php
+  746  sudo vim /var/www/html/info.php
+  747  service mysql start
+  748  sudo service mysql start
+  749  mysql -u root -p
+  750  sudo apt install php libapache2-mod-php php-mysql
+  751  sudo vim /etc/apache2/mods-enabled/dir.conf
+  752  sudo systemctl restart apache2
