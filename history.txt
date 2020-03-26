@@ -2,7 +2,7 @@
   728  /etc/init.d/apache2 start
   729  sudo vim /etc/apache2/apache2.conf
   730  /etc/init.d/apache2 start
-  731  sudo vi /etc/apache2/ports.conf
+  731  sudo vim /etc/apache2/ports.conf
   732  /etc/init.d/apache2 start
   733  chown apache.apache /etc/httpd/logs/error_log
   734  ~# chown apache.apache /etc/httpd/logs/error_log

@@ -4,39 +4,21 @@
 </head>
 
 <body>
-<?php
-$servername = "localhost";
-$username = "root";
-$password = "password";
-$dbname = "p1m3";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+    <div class="center form-style-8">
 
-$sql = "INSERT INTO Fruit
-VALUES (3, 'Durian')";
+    <h1> Welcome to Fruit Database </h1>
 
-if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
-} else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
-}
+    <ul>
+    <li><a href="select_stu.php">View Fruits</a></li>
+    <li><a href="add_stu.html">Add Fruit</a></li>
+    <li><a href="del_stu.html">Remove Fruit</a></li>
+    <li><a href="find_stu.html">Find Fruit</a></li>
+    </ul>
 
-$conn->close();
-?>
-<div class="center form-style-8">
-
-<h1> Welcome to Student Database </h1>
-
-<ul>
-<li><a href="select_stu.php">View Students</a></li>
-<li><a href="add_stu.html">Add Student</a></li>
-<li><a href="del_stu.html">Remove Student</a></li>
-<li><a href="find_stu.html">Find Student</a></li>
-</ul>
+    <form method="post" action="dataout.php">
+        ID:<input type="Text" id="idelete" name="idelete"><br>
+        <input type="Submit" name="submit" value="delete">
+    </form>
 </body>
 </html>
