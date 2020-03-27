@@ -17,7 +17,7 @@
 require_once('setup.php');
 // Query:
 $id = $_POST['id'];
-$sql = "SELECT * FROM Fruit where FruitID = $id;";
+$sql = "SELECT * FROM `Case` where Case_ID = $id;";
 
 #$sql = "SELECT * FROM Students where Username like 'amai2';";
 $result = $conn->query($sql);
@@ -31,15 +31,17 @@ if($result->num_rows > 0){
 ?>
    <table class="table table-striped">
       <tr>
-         <th>FruitID</th>
-         <th>Name</th>
+         <th>Case_ID</th>
+         <th>Status</th>
+         <th>Date</th>
       </tr>
 <?php
 while($row = $result->fetch_assoc()){
 ?>
       <tr>
-          <td><?php echo $row['FruitID']?></td>
-          <td><?php echo $row['Name']?></td>
+          <td><?php echo $row['Case_ID']?></td>
+          <td><?php echo $row['Status']?></td>
+          <td><?php echo $row['Date YYYY/MM/DD']?></td>
       </tr>
 
 <?php

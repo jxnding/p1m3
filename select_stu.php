@@ -16,22 +16,24 @@
 <?php
 require_once('setup.php');
 // Query:
-$sql = "SELECT * FROM Fruit";
+$sql = "SELECT * FROM `Case`";
 $result = $conn->query($sql);
 if($result->num_rows > 0){
 
 ?>
    <table class="table table-striped">
       <tr>
-         <th>FruitID</th>
-         <th>Name</th>
+         <th>Case_ID</th>
+         <th>Status</th>
+         <th>Date</th>
       </tr>
 <?php
 while($row = $result->fetch_assoc()){
 ?>
       <tr>
-          <td><?php echo $row['FruitID']?></td>
-          <td><?php echo $row['Name']?></td>
+          <td><?php echo $row['Case_ID']?></td>
+          <td><?php echo $row['Status']?></td>
+          <td><?php echo $row['Date']?></td>
       </tr>
 
 <?php

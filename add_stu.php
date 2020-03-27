@@ -18,8 +18,9 @@ require_once('setup.php');
 
 // Query:
 $id = $_POST['id'];
-$name = $_POST['name'];
-$sql = "INSERT INTO Fruit values ($id, '$name');";
+$status = $_POST['status'];
+$date = $_POST['date'];
+$sql = "INSERT INTO `Case` values ($id, '$status', '$date');";
 
 
 #$sql = "SELECT * FROM Students where Username like 'amai2';";
