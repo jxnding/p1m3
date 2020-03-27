@@ -1,2 +1,77 @@
-INSERT INTO Fruit VALUES (0, 'Apple');
-INSERT INTO Fruit VALUES (1, 'Orange');
+-- MySQL dump 10.13  Distrib 8.0.19, for macos10.15 (x86_64)
+--
+-- Host: localhost    Database: Covid 19
+-- ------------------------------------------------------
+-- Server version	8.0.19
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Dumping data for table `case`
+--
+
+LOCK TABLES `case` WRITE;
+/*!40000 ALTER TABLE `case` DISABLE KEYS */;
+INSERT INTO `case` VALUES ('Case_1','Recover','2020-01-22 00:00:00'),('Case_2','In patient','2020-01-24 00:00:00'),('Case_3','Death','2020-01-26 00:00:00'),('Case_4','Recover','2020-01-26 00:00:00'),('Case_5','In patient','2020-01-26 00:00:00'),('Case_6','In patient','2020-01-31 00:00:00'),('Case_7','In patient','2020-01-31 00:00:00'),('Case_8','In patient','2020-02-01 00:00:00'),('Case_9','In patient','2020-02-03 00:00:00'),('Case_10','Home Isolation','2020-02-03 00:00:00'),('Case_11','Home Isolation','2020-02-03 00:00:00'),('Case_12','Home Isolation','2020-02-11 00:00:00'),('Case_13','Home Isolation','2020-02-13 00:00:00'),('Case_14','Home Isolation','2020-02-21 00:00:00'),('Case_15','Home Isolation','2020-02-21 00:00:00'),('Case_16','Home Isolation','2020-02-24 00:00:00'),('Case_17','Home Isolation','2020-02-24 00:00:00'),('Case_18','Home Isolation','2020-02-24 00:00:00'),('Case_19','Home Isolation','2020-02-24 00:00:00'),('Case_20','Home Isolation','2020-02-24 00:00:00'),('Case_21','Home Isolation','2020-02-24 00:00:00'),('Case_22','Home Isolation','2020-02-24 00:00:00'),('Case_23','Home Isolation','2020-02-24 00:00:00'),('Case_24','Home Isolation','2020-02-24 00:00:00'),('Case_25','Home Isolation','2020-02-24 00:00:00'),('Case_26','In patient','2020-02-24 00:00:00'),('Case_27','In patient','2020-02-24 00:00:00'),('Case_28','Death','2020-02-24 00:00:00'),('Case_29','In patient','2020-02-24 00:00:00'),('Case_30','Home Isolation','2020-02-24 00:00:00'),('Case_31','Home Isolation','2020-02-24 00:00:00'),('Case_32','Home Isolation','2020-02-24 00:00:00'),('Case_33','Home Isolation','2020-02-24 00:00:00'),('Case_34','Home Isolation','2020-02-24 00:00:00'),('Case_35','Home Isolation','2020-02-24 00:00:00'),('Case_36','Home Isolation','2020-02-24 00:00:00'),('Case_37','Home Isolation','2020-02-24 00:00:00'),('Case_38','Home Isolation','2020-02-24 00:00:00'),('Case_39','Home Isolation','2020-02-24 00:00:00'),('Case_40','Home Isolation','2020-02-24 00:00:00'),('Case_41','Home Isolation','2020-02-24 00:00:00'),('Case_42','Home Isolation','2020-02-24 00:00:00'),('Case_43','Home Isolation','2020-02-24 00:00:00'),('Case_44','Home Isolation','2020-02-24 00:00:00'),('Case_45','Home Isolation','2020-02-24 00:00:00'),('Case_46','In patient','2020-02-24 00:00:00'),('Case_47','Home Isolation','2020-02-24 00:00:00'),('Case_48','Home Isolation','2020-02-24 00:00:00'),('Case_49','Home Isolation','2020-02-24 00:00:00'),('Case_50','Home Isolation','2020-02-24 00:00:00'),('Case_51','Home Isolation','2020-02-24 00:00:00'),('Case_52','Home Isolation','2020-02-26 00:00:00'),('Case_53','Home Isolation','2020-02-26 00:00:00'),('Case_54','Home Isolation','2020-02-26 00:00:00'),('Case_55','Home Isolation','2020-02-26 00:00:00'),('Case_56','Home Isolation','2020-02-26 00:00:00'),('Case_57','Home Isolation','2020-02-26 00:00:00'),('Case_58','Home Isolation','2020-02-27 00:00:00'),('Case_59','Home Isolation','2020-02-28 00:00:00'),('Case_60','Home Isolation','2020-02-28 00:00:00'),('Case_61','Home Isolation','2020-02-29 00:00:00'),('Case_62','Home Isolation','2020-02-29 00:00:00'),('Case_63','Home Isolation','2020-02-29 00:00:00'),('Case_64','Home Isolation','2020-02-29 00:00:00'),('Case_65','Home Isolation','2020-02-29 00:00:00'),('Case_66','Home Isolation','2020-02-29 00:00:00'),('Case_67','Home Isolation','2020-02-29 00:00:00'),('Case_68','Home Isolation','2020-02-29 00:00:00'),('Case_69','Home Isolation','2020-03-01 00:00:00'),('Case_70','In patient','2020-03-01 00:00:00'),('Case_71','In patient','2020-03-01 00:00:00'),('Case_72','Death','2020-03-01 00:00:00'),('Case_73','In patient','2020-03-01 00:00:00'),('Case_74','Home Isolation','2020-03-01 00:00:00'),('Case_75','Home Isolation','2020-03-02 00:00:00'),('Case_76','Home Isolation','2020-03-02 00:00:00'),('Case_77','Home Isolation','2020-03-02 00:00:00'),('Case_78','Home Isolation','2020-03-02 00:00:00'),('Case_79','Home Isolation','2020-03-02 00:00:00'),('Case_80','Home Isolation','2020-03-02 00:00:00'),('Case_81','Home Isolation','2020-03-02 00:00:00'),('Case_82','Home Isolation','2020-03-02 00:00:00'),('Case_83','Home Isolation','2020-03-02 00:00:00'),('Case_84','Home Isolation','2020-03-02 00:00:00'),('Case_85','Home Isolation','2020-03-02 00:00:00'),('Case_86','Home Isolation','2020-03-02 00:00:00'),('Case_87','Home Isolation','2020-03-02 00:00:00'),('Case_88','Home Isolation','2020-03-02 00:00:00'),('Case_89','Home Isolation','2020-03-02 00:00:00'),('Case_90','Home Isolation','2020-03-02 00:00:00'),('Case_91','Home Isolation','2020-03-02 00:00:00'),('Case_92','Home Isolation','2020-03-02 00:00:00'),('Case_93','Home Isolation','2020-03-02 00:00:00'),('Case_94','Home Isolation','2020-03-02 00:00:00'),('Case_95','Home Isolation','2020-03-02 00:00:00'),('Case_96','Home Isolation','2020-03-02 00:00:00'),('Case_97','Home Isolation','2020-03-02 00:00:00'),('Case_98','Home Isolation','2020-03-02 00:00:00'),('Case_99','Home Isolation','2020-03-03 00:00:00'),('Case_100','In patient','2020-03-03 00:00:00'),('Case_101','In patient','2020-03-03 00:00:00'),('Case_102','Death','2020-03-03 00:00:00'),('Case_103','In patient','2020-03-03 00:00:00'),('Case_104','Home Isolation','2020-03-03 00:00:00'),('Case_105','Home Isolation','2020-03-03 00:00:00'),('Case_106','Home Isolation','2020-03-03 00:00:00'),('Case_107','Home Isolation','2020-03-03 00:00:00'),('Case_108','Home Isolation','2020-03-03 00:00:00'),('Case_109','Home Isolation','2020-03-03 00:00:00'),('Case_110','Home Isolation','2020-03-03 00:00:00'),('Case_111','Home Isolation','2020-03-03 00:00:00'),('Case_112','Home Isolation','2020-03-03 00:00:00'),('Case_113','Home Isolation','2020-03-03 00:00:00'),('Case_114','Home Isolation','2020-03-03 00:00:00'),('Case_115','Home Isolation','2020-03-03 00:00:00'),('Case_116','Home Isolation','2020-03-03 00:00:00'),('Case_117','Home Isolation','2020-03-03 00:00:00'),('Case_118','In patient','2020-03-03 00:00:00');
+/*!40000 ALTER TABLE `case` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `distribution`
+--
+
+LOCK TABLES `distribution` WRITE;
+/*!40000 ALTER TABLE `distribution` DISABLE KEYS */;
+INSERT INTO `distribution` VALUES ('NY_1','S_21',1000000,400000,125000),('NY_2','S_22',200000,80000,25000),('NY_3','S_23',3000000,1200000,375000),('NY_4','S_21',500000,200000,62500),('NY_5','S_22',1000000,400000,125000),('NY_6','S_23',200000,80000,25000),('NY_7','S_21',3000000,1200000,375000),('NY_8','S_22',500000,200000,62500),('NY_9','S_23',1000000,400000,125000),('NY_10','S_23',200000,80000,25000),('CA_1','S_71',3000000,1200000,375000),('CA_2','S_73',500000,200000,62500),('CA_3','S_71',1000000,400000,125000),('CA_4','S_73',200000,80000,25000),('CA_5','S_71',3000000,1200000,375000),('CA_6','S_73',500000,200000,62500),('CA_7','S_71',1000000,400000,125000),('WA_1','S_61',200000,80000,25000),('WA_2','S_62',3000000,1200000,375000),('WA_3','S_61',500000,200000,62500),('WA_4','S_62',1000000,400000,125000),('WA_5','S_61',200000,80000,25000),('WA_6','S_62',3000000,1200000,375000),('WA_7','S_61',500000,200000,62500);
+/*!40000 ALTER TABLE `distribution` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `hospital`
+--
+
+LOCK TABLES `hospital` WRITE;
+/*!40000 ALTER TABLE `hospital` DISABLE KEYS */;
+INSERT INTO `hospital` VALUES ('NY_1','New York','NY',1000,150),('NY_2','New York','NY',800,50),('NY_3','New York','NY',600,200),('NY_4','New York','NY',300,100),('NY_5','New York','NY',900,20),('NY_6','New York','NY',1000,50),('NY_7','Monroe','NY',300,150),('NY_8','Albany','NY',500,50),('NY_9','Westchester','NY',800,200),('NY_10','Westchester','NY',700,100),('CA_1','San Francisco','CA',300,20),('CA_2','Los Angeles','CA',900,50),('CA_3','Los Angeles','CA',1000,150),('CA_4','Los Angeles','CA',300,50),('CA_5','San Diego','CA',500,200),('CA_6','San Diego','CA',300,100),('CA_7','Sacramento','CA',900,20),('WA_1','King','WA',1000,50),('WA_2','King','WA',300,150),('WA_3','Snohomish','WA',500,50),('WA_4','Whatcom','WA',300,200),('WA_5','pierce','WA',900,100),('WA_6','King','WA',1000,20),('WA_7','Snohomish','WA',300,50);
+/*!40000 ALTER TABLE `hospital` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `patient`
+--
+
+LOCK TABLES `patient` WRITE;
+/*!40000 ALTER TABLE `patient` DISABLE KEYS */;
+INSERT INTO `patient` VALUES ('Case_1','Male','30s','Snohomish','WA','WA_1'),('Case_2','Male','30s','Whatcom','WA','WA_4'),('Case_3','Male','30s','DC','DC','DC_3'),('Case_4','Male','40s','Dallas','TX','TX_3'),('Case_5','Male','50s','San Francisco','CA','CA_1'),('Case_6','Male','20s','Los Angeles','CA','CA_2'),('Case_7','Male','60s','Los Angeles','CA','CA_3'),('Case_8','Femal','70s','Los Angeles','CA','CA_4'),('Case_9','Male','70s','San Diego','CA','CA_6'),('Case_10','Male','70s','San Diego','CA','CA_10'),('Case_11','Female','70s','Sacramento','CA','CA_12'),('Case_12','Male','70s','Sacramento','CA','CA_5'),('Case_13','Male','70s','Westchester','NY','NY_1'),('Case_14','Male','70s','Westchester','NY','NY_1'),('Case_15','Male','70s','Westchester','NY','NY_3'),('Case_16','Male','70s','Westchester','NY','NY_1'),('Case_17','Male','30s','Westchester','NY','NY_1'),('Case_18','Male','30s','New York','NY','NY_10'),('Case_19','Male','30s','New York','NY','NY_1'),('Case_20','Female','30s','New York','NY','NY_2'),('Case_21','Female','30s','New York','NY','NY_5'),('Case_22','Female','30s','New York','NY','NY_2'),('Case_23','Male','50s','New York','NY','NY_4'),('Case_24','Male','50s','New York','NY','NY_2'),('Case_25','Female','50s','New York','NY','NY_2'),('Case_26','Male','50s','New York','NY','NY_11'),('Case_27','Male','50s','New York','NY','NY_5'),('Case_28','Male','50s','New York','NY','NY_1'),('Case_29','Male','50s','New York','NY','NY_20'),('Case_30','Male','50s','New York','NY','NY_3'),('Case_31','Male','50s','New York','NY','NY_1'),('Case_32','Male','20s','Monroe','NY','NY_40'),('Case_33','Male','20s','King','WA','WA_15'),('Case_34','Male','20s','King','WA','WA_30'),('Case_35','Male','20s','King','WA','WA_44'),('Case_36','Male','20s','King','WA','WA_55'),('Case_37','Male','20s','King','WA','WA_11'),('Case_38','Female','30s','King','WA','WA_7'),('Case_39','Female','30s','King','WA','WA_9'),('Case_40','Female','30s','New York','NY','NY_2'),('Case_41','Male','40s','New York','NY','NY_11'),('Case_42','Male','50s','New York','NY','NY_5'),('Case_43','Female','20s','Pierce','WA','WA_1'),('Case_44','Male','60s','Bergen','NJ','WA_4'),('Case_45','Male','70s','Milwaukee','WI','WI_5'),('Case_46','Male','70s','Union','NJ','WA_30'),('Case_47','Male','70s','Albany','NY','WA_44'),('Case_48','Male','70s','New York','NY','WA_55'),('Case_49','Male','70s','Hudson','NJ','WA_11'),('Case_50','Male','70s','Snohomish','WA','WA_7'),('Case_51','Male','70s','Whatcom','WA','WA_9'),('Case_52','Male','70s','DC','DC','NY_40'),('Case_53','Male','70s','Dallas','TX','TX_2'),('Case_54','Male','30s','San Francisco','CA','NY_11'),('Case_55','Male','30s','Los Angeles','CA','CA_20'),('Case_56','Female','30s','Los Angeles','CA','CA_2'),('Case_57','Female','30s','Los Angeles','CA','CA_1'),('Case_58','Female','30s','San Diego','CA','CA_2'),('Case_59','Male','30s','San Diego','CA','CA_3'),('Case_60','Male','50s','Sacramento','CA','CA_4'),('Case_61','Female','50s','Sacramento','CA','CA_6'),('Case_62','Male','50s','Westchester','NY','NY_5'),('Case_63','Male','50s','Westchester','NY','NY_1'),('Case_64','Male','50s','Westchester','NY','NY_20'),('Case_65','Male','50s','Westchester','NY','NY_3'),('Case_66','Male','50s','Westchester','NY','NY_1'),('Case_67','Male','50s','New York','NY','NY_40'),('Case_68','Male','50s','New York','NY','NY_2'),('Case_69','Male','20s','New York','NY','NY_11'),('Case_70','Male','20s','New York','NY','NY_5'),('Case_71','Male','20s','New York','NY','NY_1'),('Case_72','Male','20s','New York','NY','NY_20'),('Case_73','Male','20s','New York','NY','NY_3'),('Case_74','Female','20s','New York','NY','NY_1'),('Case_75','Female','10s','New York','NY','NY_40'),('Case_76','Female','80s','New York','NY','NY_2'),('Case_77','Male','30s','New York','NY','NY_11'),('Case_78','Male','30s','New York','NY','NY_5'),('Case_79','Female','30s','New York','NY','NY_1'),('Case_80','Male','40s','New York','NY','NY_20'),('Case_81','Male','50s','Monroe','NY','NY_3'),('Case_82','Male','20s','King','WA','WA_1'),('Case_83','Male','60s','King','WA','WA_4'),('Case_84','Male','70s','King','WA','WA_15'),('Case_85','Male','70s','King','WA','WA_30'),('Case_86','Male','70s','King','WA','WA_44'),('Case_87','Male','70s','King','WA','WA_55'),('Case_88','Male','70s','King','WA','WA_11'),('Case_89','Male','70s','New York','NY','WA_7'),('Case_90','Male','70s','New York','NY','WA_9'),('Case_91','Male','70s','New York','NY','NY_20'),('Case_92','Female','70s','Pierce','WA','WA_1'),('Case_93','Female','30s','Bergen','NJ','WA_4'),('Case_94','Female','30s','Milwaukee','WI','WI_15'),('Case_95','Male','30s','Union','NJ','WA_30'),('Case_96','Male','30s','Albany','NY','WA_44'),('Case_97','Female','30s','New York','NY','WA_55'),('Case_98','Male','30s','Hudson','NJ','WA_11'),('Case_99','Male','50s','Snohomish','WA','WA_7'),('Case_100','Male','50s','Whatcom','WA','WA_9'),('Case_101','Male','50s','DC','DC','NY_1'),('Case_102','Male','50s','Dallas','TX','TX_5'),('Case_103','Male','50s','San Francisco','CA','NY_2'),('Case_104','Male','50s','Los Angeles','CA','NY_11'),('Case_105','Male','50s','Los Angeles','CA','CA_3'),('Case_106','Male','50s','Los Angeles','CA','CA_4'),('Case_107','Male','50s','San Diego','CA','CA_6'),('Case_108','Male','20s','San Diego','CA','CA_10'),('Case_109','Male','20s','Sacramento','CA','CA_12'),('Case_110','Female','20s','Sacramento','CA','CA_5'),('Case_111','Female','20s','Westchester','NY','NY_1'),('Case_112','Female','20s','Westchester','NY','NY_20'),('Case_113','Male','20s','Westchester','NY','NY_11'),('Case_114','Male','30s','Westchester','NY','NY_1'),('Case_115','Female','30s','Westchester','NY','NY_20'),('Case_116','Male','30s','New York','NY','NY_11'),('Case_117','Male','30s','New York','NY','NY_11'),('Case_118','Male','30s','New York','NY','NY_11');
+/*!40000 ALTER TABLE `patient` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Dumping data for table `station`
+--
+
+LOCK TABLES `station` WRITE;
+/*!40000 ALTER TABLE `station` DISABLE KEYS */;
+INSERT INTO `station` VALUES ('S_21','NY'),('S_22','NY'),('S_23','NY'),('S_61','WA'),('S_62','WA'),('S_71','CA'),('S_73','CA'),('S_51','TX'),('S54','TX');
+/*!40000 ALTER TABLE `station` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2020-03-27 15:44:51
