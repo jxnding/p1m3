@@ -1,0 +1,12 @@
+Zhaoxiong Ding:
+HTML/CSS
+PHP
+Betaweb setup
+
+Tu Shuang:
+BCNF normalization
+Schema adjustments
+
+Yuan Wang:
+SQL create
+SQL update/delete commands

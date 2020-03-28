@@ -1,0 +1,24 @@
+NY_1,New York,NY,1000,150
+NY_2,New York,NY,800,50
+NY_3,New York,NY,600,200
+NY_4,New York,NY,300,100
+NY_5,New York,NY,900,20
+NY_6,New York,NY,1000,50
+NY_7,Monroe,NY,300,150
+NY_8,Albany,NY,500,50
+NY_9,Westchester,NY,800,200
+NY_10,Westchester,NY,700,100
+CA_1,San Francisco,CA,300,20
+CA_2,Los Angeles,CA,900,50
+CA_3,Los Angeles,CA,1000,150
+CA_4,Los Angeles,CA,300,50
+CA_5,San Diego,CA,500,200
+CA_6,San Diego,CA,300,100
+CA_7,Sacramento,CA,900,20
+WA_1,King,WA,1000,50
+WA_2,King,WA,300,150
+WA_3,Snohomish,WA,500,50
+WA_4,Whatcom,WA,300,200
+WA_5,pierce,WA,900,100
+WA_6,King,WA,1000,20
+WA_7,Snohomish,WA,300,50

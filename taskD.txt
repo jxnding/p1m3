@@ -1,0 +1,6 @@
+betaweb.rochester.edu/~zding5
+~/public_html/
+
+View support for all 5 tables
+
+Add/Delete/Find support for cases

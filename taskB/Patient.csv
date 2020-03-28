@@ -1,0 +1,118 @@
+1,Male,30s,Snohomish,WA,WA_1
+2,Male,30s,Whatcom,WA,WA_4
+3,Male,30s,DC,DC,DC_3
+4,Male,40s,Dallas,TX,TX_3
+5,Male,50s,San Francisco,CA,CA_1
+6,Male,20s,Los Angeles,CA,CA_2
+7,Male,60s,Los Angeles,CA,CA_3
+8,Femal,70s,Los Angeles,CA,CA_4
+9,Male,70s,San Diego,CA,CA_6
+10,Male,70s,San Diego,CA,CA_10
+11,Female,70s,Sacramento,CA,CA_12
+12,Male,70s,Sacramento,CA,CA_5
+13,Male,70s,Westchester,NY,NY_1
+14,Male,70s,Westchester,NY,NY_1
+15,Male,70s,Westchester,NY,NY_3
+16,Male,70s,Westchester,NY,NY_1
+17,Male,30s,Westchester,NY,NY_1
+18,Male,30s,New York,NY,NY_10
+19,Male,30s,New York,NY,NY_1
+20,Female,30s,New York,NY,NY_2
+21,Female,30s,New York,NY,NY_5
+22,Female,30s,New York,NY,NY_2
+23,Male,50s,New York,NY,NY_4
+24,Male,50s,New York,NY,NY_2
+25,Female,50s,New York,NY,NY_2
+26,Male,50s,New York,NY,NY_11
+27,Male,50s,New York,NY,NY_5
+28,Male,50s,New York,NY,NY_1
+29,Male,50s,New York,NY,NY_20
+30,Male,50s,New York,NY,NY_3
+31,Male,50s,New York,NY,NY_1
+32,Male,20s,Monroe,NY,NY_40
+33,Male,20s,King,WA,WA_15
+34,Male,20s,King,WA,WA_30
+35,Male,20s,King,WA,WA_44
+36,Male,20s,King,WA,WA_55
+37,Male,20s,King,WA,WA_11
+38,Female,30s,King,WA,WA_7
+39,Female,30s,King,WA,WA_9
+40,Female,30s,New York,NY,NY_2
+41,Male,40s,New York,NY,NY_11
+42,Male,50s,New York,NY,NY_5
+43,Female,20s,Pierce,WA,WA_1
+44,Male,60s,Bergen,NJ,WA_4
+45,Male,70s,Milwaukee,WI,WI_5
+46,Male,70s,Union,NJ,WA_30
+47,Male,70s,Albany,NY,WA_44
+48,Male,70s,New York,NY,WA_55
+49,Male,70s,Hudson,NJ,WA_11
+50,Male,70s,Snohomish,WA,WA_7
+51,Male,70s,Whatcom,WA,WA_9
+52,Male,70s,DC,DC,NY_40
+53,Male,70s,Dallas,TX,TX_2
+54,Male,30s,San Francisco,CA,NY_11
+55,Male,30s,Los Angeles,CA,CA_20
+56,Female,30s,Los Angeles,CA,CA_2
+57,Female,30s,Los Angeles,CA,CA_1
+58,Female,30s,San Diego,CA,CA_2
+59,Male,30s,San Diego,CA,CA_3
+60,Male,50s,Sacramento,CA,CA_4
+61,Female,50s,Sacramento,CA,CA_6
+62,Male,50s,Westchester,NY,NY_5
+63,Male,50s,Westchester,NY,NY_1
+64,Male,50s,Westchester,NY,NY_20
+65,Male,50s,Westchester,NY,NY_3
+66,Male,50s,Westchester,NY,NY_1
+67,Male,50s,New York,NY,NY_40
+68,Male,50s,New York,NY,NY_2
+69,Male,20s,New York,NY,NY_11
+70,Male,20s,New York,NY,NY_5
+71,Male,20s,New York,NY,NY_1
+72,Male,20s,New York,NY,NY_20
+73,Male,20s,New York,NY,NY_3
+74,Female,20s,New York,NY,NY_1
+75,Female,10s,New York,NY,NY_40
+76,Female,80s,New York,NY,NY_2
+77,Male,30s,New York,NY,NY_11
+78,Male,30s,New York,NY,NY_5
+79,Female,30s,New York,NY,NY_1
+80,Male,40s,New York,NY,NY_20
+81,Male,50s,Monroe,NY,NY_3
+82,Male,20s,King,WA,WA_1
+83,Male,60s,King,WA,WA_4
+84,Male,70s,King,WA,WA_15
+85,Male,70s,King,WA,WA_30
+86,Male,70s,King,WA,WA_44
+87,Male,70s,King,WA,WA_55
+88,Male,70s,King,WA,WA_11
+89,Male,70s,New York,NY,WA_7
+90,Male,70s,New York,NY,WA_9
+91,Male,70s,New York,NY,NY_20
+92,Female,70s,Pierce,WA,WA_1
+93,Female,30s,Bergen,NJ,WA_4
+94,Female,30s,Milwaukee,WI,WI_15
+95,Male,30s,Union,NJ,WA_30
+96,Male,30s,Albany,NY,WA_44
+97,Female,30s,New York,NY,WA_55
+98,Male,30s,Hudson,NJ,WA_11
+99,Male,50s,Snohomish,WA,WA_7
+100,Male,50s,Whatcom,WA,WA_9
+101,Male,50s,DC,DC,NY_1
+102,Male,50s,Dallas,TX,TX_5
+103,Male,50s,San Francisco,CA,NY_2
+104,Male,50s,Los Angeles,CA,NY_11
+105,Male,50s,Los Angeles,CA,CA_3
+106,Male,50s,Los Angeles,CA,CA_4
+107,Male,50s,San Diego,CA,CA_6
+108,Male,20s,San Diego,CA,CA_10
+109,Male,20s,Sacramento,CA,CA_12
+110,Female,20s,Sacramento,CA,CA_5
+111,Female,20s,Westchester,NY,NY_1
+112,Female,20s,Westchester,NY,NY_20
+113,Male,20s,Westchester,NY,NY_11
+114,Male,30s,Westchester,NY,NY_1
+115,Female,30s,Westchester,NY,NY_20
+116,Male,30s,New York,NY,NY_11
+117,Male,30s,New York,NY,NY_11
+118,Male,30s,New York,NY,NY_11
