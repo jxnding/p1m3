@@ -15,7 +15,7 @@
 <?php
 require_once('setup.php');
 // Query:
-$sql = "SELECT * FROM `Case`";
+$sql = "SELECT * FROM `Supply_station`";
 $result = $conn->query($sql);
 if($result->num_rows > 0){
 

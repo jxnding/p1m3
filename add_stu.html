@@ -7,13 +7,23 @@
 <body>
 <div class="center">
 <div class="form-style-8">
-<h2> Insert Fruit </h2>
+
+<h2> Insert Case </h2>
+<h3> Insert Case without ID (auto-gen)</h3>
+<form action="add.php" method="post">
+   Status:  <input type="text" name="status"><br>
+   Date (YYYYMMDD):  <input type="text" name="date"><br>
+   <input type="submit">
+</form>
+
+<h3> Insert Case with ID (admin only)</h3>
 <form action="add_stu.php" method="post">
    Case_ID:  <input type="text" name="id"><br>
    Status:  <input type="text" name="status"><br>
-   Date (YYYY/MM/DD):  <input type="text" name="date"><br>
+   Date (YYYYMMDD):  <input type="text" name="date"><br>
    <input type="submit">
 </form>
+
 </div>
 </div>
 </body>

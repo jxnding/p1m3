@@ -15,24 +15,28 @@
 <?php
 require_once('setup.php');
 // Query:
-$sql = "SELECT * FROM `Case`";
+$sql = "SELECT * FROM Distribution";
 $result = $conn->query($sql);
 if($result->num_rows > 0){
 
 ?>
    <table class="table table-striped">
       <tr>
-         <th>Case_ID</th>
-         <th>Status</th>
-         <th>Date</th>
+         <th>Hospital</th>
+         <th>Station</th>
+         <th>Number of Masks</th>
+         <th>Number of Protective Equipment</th>
+         <th>Number of Tests</th>
       </tr>
 <?php
 while($row = $result->fetch_assoc()){
 ?>
       <tr>
-          <td><?php echo $row['Case_ID']?></td>
-          <td><?php echo $row['Status']?></td>
-          <td><?php echo $row['Date']?></td>
+          <td><?php echo $row['Hospital']?></td>
+          <td><?php echo $row['Station']?></td>
+          <td><?php echo $row['Number of Masks']?></td>
+          <td><?php echo $row['Number of Protective Equipment']?></td>
+          <td><?php echo $row['Number of Tests']?></td>
       </tr>
 
 <?php

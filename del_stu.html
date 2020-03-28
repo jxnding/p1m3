@@ -5,9 +5,15 @@
 <body>
 
 <div class="center form-style-8">
-<h2> Delete Case </h2>
+<h2> Delete Case by Date</h2>
+<form action="del.php" method="post">
+   Date (YYYYMMDD):  <input type="text" name="id"><br>
+   <input type="submit">
+</form>
+
+<h2> Delete Case by Case_ID</h2>
 <form action="del_stu.php" method="post">
-   CaseID:  <input type="text" name="id"><br>
+   Case_ID:  <input type="text" name="id"><br>
    <input type="submit">
 </form>
 
