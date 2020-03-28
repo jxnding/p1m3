@@ -16,8 +16,9 @@
 <?php
 require_once('setup.php');
 // Query:
+$field = $_POST['field'];
 $id = $_POST['id'];
-$sql = "DELETE FROM `Case` where Date =  $id;";
+$sql = "DELETE FROM `Case` where $field =  '$id';";
 
 
 #$sql = "SELECT * FROM Students where Username like 'amai2';";
