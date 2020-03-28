@@ -22,21 +22,21 @@ if($result->num_rows > 0){
 ?>
    <table class="table table-striped">
       <tr>
-         <th>Hospital</th>
-         <th>Station</th>
-         <th>Number of Masks</th>
-         <th>Number of Protective Equipment</th>
-         <th>Number of Tests</th>
+         <th>Hospital_ID</th>
+         <th>County</th>
+         <th>State</th>
+         <th>Total_beds</th>
+         <th>Available_beds</th>
       </tr>
 <?php
 while($row = $result->fetch_assoc()){
 ?>
       <tr>
-          <td><?php echo $row['Hospital']?></td>
-          <td><?php echo $row['Station']?></td>
-          <td><?php echo $row['Number of Masks']?></td>
-          <td><?php echo $row['Number of Protective Equipment']?></td>
-          <td><?php echo $row['Number of Tests']?></td>
+          <td><?php echo $row['Hospital_ID']?></td>
+          <td><?php echo $row['County']?></td>
+          <td><?php echo $row['State']?></td>
+          <td><?php echo $row['Total_beds']?></td>
+          <td><?php echo $row['Available_beds']?></td>
       </tr>
 
 <?php

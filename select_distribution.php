@@ -32,11 +32,11 @@ if($result->num_rows > 0){
 while($row = $result->fetch_assoc()){
 ?>
       <tr>
-          <td><?php echo $row['Hospital']?></td>
-          <td><?php echo $row['Station']?></td>
-          <td><?php echo $row['Number of Masks']?></td>
-          <td><?php echo $row['Number of Protective Equipment']?></td>
-          <td><?php echo $row['Number of Tests']?></td>
+          <td><?php echo $row['Hospital_ID']?></td>
+          <td><?php echo $row['Station_ID']?></td>
+          <td><?php echo $row['Mask']?></td>
+          <td><?php echo $row['Protect_clothes']?></td>
+          <td><?php echo $row['Tester']?></td>
       </tr>
 
 <?php

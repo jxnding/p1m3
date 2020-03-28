@@ -23,16 +23,22 @@ if($result->num_rows > 0){
    <table class="table table-striped">
       <tr>
          <th>Case_ID</th>
-         <th>Status</th>
-         <th>Date</th>
+         <th>Gender</th>
+         <th>Age</th>
+         <th>County</th>
+         <th>State</th>
+         <th>Hospital_ID</th>
       </tr>
 <?php
 while($row = $result->fetch_assoc()){
 ?>
       <tr>
           <td><?php echo $row['Case_ID']?></td>
-          <td><?php echo $row['Status']?></td>
-          <td><?php echo $row['Date']?></td>
+          <td><?php echo $row['Gender']?></td>
+          <td><?php echo $row['Age']?></td>
+          <td><?php echo $row['County']?></td>
+          <td><?php echo $row['State']?></td>
+          <td><?php echo $row['Hospital_ID']?></td>
       </tr>
 
 <?php

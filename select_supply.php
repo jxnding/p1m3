@@ -22,17 +22,15 @@ if($result->num_rows > 0){
 ?>
    <table class="table table-striped">
       <tr>
-         <th>Case_ID</th>
-         <th>Status</th>
-         <th>Date</th>
+         <th>Station_ID</th>
+         <th>State</th>
       </tr>
 <?php
 while($row = $result->fetch_assoc()){
 ?>
       <tr>
-          <td><?php echo $row['Case_ID']?></td>
-          <td><?php echo $row['Status']?></td>
-          <td><?php echo $row['Date']?></td>
+          <td><?php echo $row['Station_ID']?></td>
+          <td><?php echo $row['State']?></td>
       </tr>
 
 <?php
