@@ -33,6 +33,12 @@ while($row = $result->fetch_assoc()){
           <td><?php echo $row['Case_ID']?></td>
           <td><?php echo $row['Status']?></td>
           <td><?php echo $row['Date']?></td>
+          <td><?php echo '
+            <form action="del_stu.php" method="post">
+            Delete:  <input type="text" name="id" value="' . $row['Case_ID'] . '"><br>
+            <input type="submit">
+            </form>'
+          ?></td>
       </tr>
 
 <?php
