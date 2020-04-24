@@ -37,6 +37,12 @@ while($row = $result->fetch_assoc()){
           <td><?php echo $row['State']?></td>
           <td><?php echo $row['Total_beds']?></td>
           <td><?php echo $row['Available_beds']?></td>
+          <td><?php echo '
+            <form action="del_hospital.php" method="post">
+            Delete:  <input type="text" name="id" value="' . $row['Hospital_ID'] . '"><br>
+            <input type="submit">
+            </form>'
+          ?></td>
       </tr>
 
 <?php

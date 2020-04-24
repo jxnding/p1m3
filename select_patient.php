@@ -39,6 +39,12 @@ while($row = $result->fetch_assoc()){
           <td><?php echo $row['County']?></td>
           <td><?php echo $row['State']?></td>
           <td><?php echo $row['Hospital_ID']?></td>
+          <td><?php echo '
+            <form action="del_patient.php" method="post">
+            Delete:  <input type="text" name="id" value="' . $row['Case_ID'] . '"><br>
+            <input type="submit">
+            </form>'
+          ?></td>
       </tr>
 
 <?php

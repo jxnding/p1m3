@@ -17,7 +17,7 @@
 require_once('setup.php');
 // Query:
 $id = $_POST['id'];
-$sql = "DELETE FROM `Case` where Case_ID =  $id;";
+$sql = "DELETE FROM `Hospital` where Hospital_ID =  $id;";
 
 $result = $conn->query($sql);
 
